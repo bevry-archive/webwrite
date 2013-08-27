@@ -13,13 +13,13 @@ Specification for backends for how to interact with the Web Write GUIs
   - `DELETE` delete the files at that relative path or collection
   - Results are in the following format:
 
-    ``` javascript
-    {
-      "success": true/false,
-      "message": String,
-      "data": Object or Array
-    }
-    ```
+      ``` javascript
+      {
+        "success": true/false,
+        "message": String,
+        "data": Object/Array
+      }
+      ```
 
 - `/_collections/`
   - `GET` fetch the collections that we have and their details
