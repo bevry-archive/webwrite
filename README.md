@@ -12,6 +12,7 @@ Specification for backends for how to interact with the Web Write GUIs
   - `POST` update the file at that relative path or collection
   - `DELETE` delete the files at that relative path or collection
   - Results are in the following format:
+
     ``` javascript
     {
       "success": true/false,
