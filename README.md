@@ -17,18 +17,8 @@ var response = {
 	// The success or error message of what we did
 	message: "Result returned successfully",
 
-	// Data: Object/Array
-	data: [
-		{
-			id: 1
-			// ...
-		},
-		{
-			id: 2
-			// ...
-		}
-	]
-};
+	// Data: Whatever
+	data: null
 ```
 
 ### Route: `http://site.com/restapi/`
