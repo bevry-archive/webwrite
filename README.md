@@ -19,6 +19,7 @@ var response = {
 
 	// Data: Whatever
 	data: null
+}
 ```
 
 ### Route: `http://site.com/restapi/`
@@ -42,19 +43,6 @@ var response = {
 		- e.g. `["relativeOutDirPath', "contentRendered"]`
 
 ``` javascript
-var request = {
-	query: {
-		// Extension: String
-		// Searches within the extension
-		extension: "md",
-
-		// Mime: String
-		// Searches within the MIME content type
-		mime: "image",
-
-		// Limit
-	}
-};
 var responseData = {
 	// Website Name
 	name: "My Website",
