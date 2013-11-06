@@ -78,6 +78,13 @@ var responseData = {
 };
 ```
 
+
+### Route: `http://site.com/restapi/template-data`
+
+- Methods:
+	- `GET` fetch the template data that will be attached (JSON'able values only - no circular objects or functions)
+
+
 ### Route: `http://site.com/restapi/collection/<collectionId>`
 
 - Methods:
